@@ -21,9 +21,9 @@ function moveBall() {
   }
  
   var Xmin = 0;
-  var Xmax = window.screen.availWidth;
+  var Xmax = 1000;
   var Ymin = 0;
-  var Ymax = window.screen.availHeight;
+  var Ymax = 800;
   
   if(positionX > Xmax){
     sideToSide = true;
@@ -68,9 +68,9 @@ function moveBall2() {
   }
   
   var Xmin2 = 0;
-  var Xmax2 = window.screen.availWidth;
+  var Xmax2 = 1000;
   var Ymin2 = 0;
-  var Ymax2 = window.screen.availHeight;
+  var Ymax2 = 800;
   
   if(positionX2 > Xmax2){
     sideToSide2 = true;
@@ -114,9 +114,9 @@ function moveBall3() {
   }
 
   var Xmin3 = 0;
-  var Xmax3 = window.screen.availWidth;
+  var Xmax3 = 1000;
   var Ymin3 = 0;
-  var Ymax3 = window.screen.availHeight;
+  var Ymax3 = 800;
   
   if(positionX3 > Xmax3){
     sideToSide3 = true;
@@ -160,9 +160,9 @@ function moveBall4() {
   }
   
   var Xmin4 = 0;
-  var Xmax4 = window.screen.availWidth;
+  var Xmax4 = 1000;
   var Ymin4 = 0;
-  var Ymax4 = window.screen.availHeight;
+  var Ymax4 = 800;
   
   if(positionX4 > Xmax4){
     sideToSide4 = true;
