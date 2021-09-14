@@ -67,9 +67,9 @@ function moveBall2() {
   }
   
   var Xmin2 = 0;
-  var Xmax2 = window.screen.availWidth;;
+  var Xmax2 = window.screen.availWidth;
   var Ymin2 = 0;
-  var Ymax2 = window.screen.height;;
+  var Ymax2 = window.screen.availHeight;
   if(positionX2 > Xmax2){
     sideToSide2 = true;
     ball2.style.background = '#04B486'
