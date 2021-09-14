@@ -23,7 +23,7 @@ function moveBall() {
   var Xmin = 0;
   var Xmax = 1200;
   var Ymin = 0;
-  var Ymax = 600;
+  var Ymax = 500;
   
   if(positionX > Xmax){
     sideToSide = true;
@@ -70,7 +70,7 @@ function moveBall2() {
   var Xmin2 = 0;
   var Xmax2 = 1200;
   var Ymin2 = 0;
-  var Ymax2 = 600;
+  var Ymax2 = 500;
   
   if(positionX2 > Xmax2){
     sideToSide2 = true;
@@ -116,7 +116,7 @@ function moveBall3() {
   var Xmin3 = 0;
   var Xmax3 = 1200;
   var Ymin3 = 0;
-  var Ymax3 = 600;
+  var Ymax3 = 500;
   
   if(positionX3 > Xmax3){
     sideToSide3 = true;
@@ -162,7 +162,7 @@ function moveBall4() {
   var Xmin4 = 0;
   var Xmax4 = 1200;
   var Ymin4 = 0;
-  var Ymax4 = 600;
+  var Ymax4 = 500;
   
   if(positionX4 > Xmax4){
     sideToSide4 = true;
