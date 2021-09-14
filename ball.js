@@ -29,17 +29,17 @@ function moveBall() {
     sideToSide = true;
     ball.style.background = '#008080';
   }
-  if(positionX === Xmax){
+  if(positionX === Xmin){
     sideToSide = false;
     ball.style.background = '#4B088A';
   }
   if(positionY > Ymax){
     upAndDown = true;
-    ball.style.background = '#ADFF2F'
+    ball.style.background = '#ADFF2F';
   }
   if(positionY === Ymin){
     upAndDown = false;
-    ball.style.background = '#00FF00'
+    ball.style.background = '#00FF00';
   }
 }
 
@@ -74,19 +74,19 @@ function moveBall2() {
   
   if(positionX2 > Xmax2){
     sideToSide2 = true;
-    ball2.style.background = '#04B486'
+    ball2.style.background = '#04B486';
   }
   if(positionX2 === Xmin2){
     sideToSide2 = false;
-    ball2.style.background = '#8A084B'
+    ball2.style.background = '#8A084B';
   }
   if(positionY2 > Ymax2){
     upAndDown2 = true;
-    ball2.style.background = '#FF0000'
+    ball2.style.background = '#FF0000';
   }
   if(positionY2 === Ymin2){
     upAndDown2 = false;
-    ball2.style.background = '#1C1C1C'
+    ball2.style.background = '#1C1C1C';
   }
 }
 setInterval(moveBall2, 100);
