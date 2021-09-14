@@ -133,3 +133,47 @@ function moveBall3() {
   }
 }
 setInterval(moveBall3, 100);
+
+var ball4 = document.getElementById("ball4");
+var velocityX4 = 20;
+var velocityY4 = 20;
+var positionX4 = 0;
+var positionY4 = 0;
+var sideToSide4 = false;
+var upAndDown4 = false;
+
+function moveBall4() {
+  ball4.style.left = positionX4 + 'px';
+  ball4.style.top = positionY4 + 'px';
+  if(sideToSide4 === false){
+    positionX4 += velocityX4;
+  } else {
+    positionX4 -= velocityX4;
+  }
+  if(upAndDown4 === false){
+    positionY4 += velocityY4;
+  } else {
+    positionY4 -= velocityY4;
+  }
+  var Xmin4 = 0;
+  var Xmax4 = window.screen.availWidth;
+  var Ymin4 = 0;
+  var Ymax4 = window.screen.availHeight;
+  if(positionX4 > Xmax4){
+    sideToSide4 = true;
+    ball4.style.background = '#728FCE'
+  }
+  if(positionX4 === Xmin4){
+    sideToSide4 = false;
+     ball4.style.background = '#0000A5'
+  }
+  if(positionY4 > Ymax4){
+    upAndDown4 = true;
+     ball4.style.background = '#800080'
+  }
+  if(positionY4 === Ymin4){
+    upAndDown4 = false;
+     ball4.style.background = '#E238EC'
+  }
+}
+setInterval(moveBall4, 100);
