@@ -24,21 +24,22 @@ function moveBall() {
   var Xmax = window.screen.availWidth;
   var Ymin = 0;
   var Ymax = window.screen.availHeight;
+  
   if(positionX > Xmax){
     sideToSide = true;
-    ball.style.background = '#F3F781';
+    ball.style.background = '#008080';
   }
-  if(positionX === Xmin){
-    sideToSide = false;
+  if(positionX === Xmax){
+    sideToSide = true;
     ball.style.background = '#4B088A';
   }
   if(positionY > Ymax){
     upAndDown = true;
-    ball.style.background = '#F3F781'
+    ball.style.background = '#ADFF2F'
   }
   if(positionY === Ymin){
     upAndDown = false;
-    ball.style.background = '#4B088A'
+    ball.style.background = '#00FF00'
   }
 }
 
@@ -55,12 +56,12 @@ var upAndDown2 = false;
 function moveBall2() {
   ball2.style.left = positionX2 + 'px';
   ball2.style.top = positionY2 + 'px';
-  if(sideToSide === false){
+  if(sideToSide2 === false){
     positionX2 += velocityX2;
   } else {
     positionX2 -= velocityX2;
   }
-  if(upAndDown === false){
+  if(upAndDown2 === false){
     positionY2 += velocityY2;
   } else {
     positionY2 -= velocityY2;
@@ -70,6 +71,7 @@ function moveBall2() {
   var Xmax2 = window.screen.availWidth;
   var Ymin2 = 0;
   var Ymax2 = window.screen.availHeight;
+  
   if(positionX2 > Xmax2){
     sideToSide2 = true;
     ball2.style.background = '#04B486'
@@ -115,6 +117,7 @@ function moveBall3() {
   var Xmax3 = window.screen.availWidth;
   var Ymin3 = 0;
   var Ymax3 = window.screen.availHeight;
+  
   if(positionX3 > Xmax3){
     sideToSide3 = true;
     ball3.style.background = '#170B3B'
@@ -155,10 +158,12 @@ function moveBall4() {
   } else {
     positionY4 -= velocityY4;
   }
+  
   var Xmin4 = 0;
   var Xmax4 = window.screen.availWidth;
   var Ymin4 = 0;
   var Ymax4 = window.screen.availHeight;
+  
   if(positionX4 > Xmax4){
     sideToSide4 = true;
     ball4.style.background = '#728FCE'
