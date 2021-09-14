@@ -68,9 +68,9 @@ function moveBall2() {
   }
   
   var Xmin2 = 0;
-  var Xmax2 = 1200;
+  var Xmax2 = window.screen.width;
   var Ymin2 = 0;
-  var Ymax2 = 500;
+  var Ymax2 = window.screen.height;
   
   if(positionX2 > Xmax2){
     sideToSide2 = true;
