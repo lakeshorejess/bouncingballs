@@ -30,7 +30,7 @@ function moveBall() {
     ball.style.background = '#008080';
   }
   if(positionX === Xmax){
-    sideToSide = true;
+    sideToSide = false;
     ball.style.background = '#4B088A';
   }
   if(positionY > Ymax){
