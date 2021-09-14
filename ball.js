@@ -21,9 +21,9 @@ function moveBall() {
   }
  
   var Xmin = 0;
-  var Xmax = 600;
+  var Xmax = window.screen.availWidth;
   var Ymin = 0;
-  var Ymax = 400;
+  var Ymax = window.screen.availHeight;
   if(positionX > Xmax){
     sideToSide = true;
     ball.style.background = '#F3F781';
@@ -112,9 +112,9 @@ function moveBall3() {
   }
 
   var Xmin3 = 0;
-  var Xmax3 = 600;
+  var Xmax3 = window.screen.availWidth;
   var Ymin3 = 0;
-  var Ymax3 = 400;
+  var Ymax3 = window.screen.availHeight;
   if(positionX3 > Xmax3){
     sideToSide3 = true;
     ball3.style.background = '#170B3B'
