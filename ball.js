@@ -21,9 +21,9 @@ function moveBall() {
   }
  
   var Xmin = 0;
-  var Xmax = 500;
+  var Xmax = 600;
   var Ymin = 0;
-  var Ymax = 250;
+  var Ymax = 400;
   if(positionX > Xmax){
     sideToSide = true;
     ball.style.background = '#F3F781';
@@ -67,9 +67,9 @@ function moveBall2() {
   }
   
   var Xmin2 = 0;
-  var Xmax2 = 400;
+  var Xmax2 = 600;
   var Ymin2 = 0;
-  var Ymax2 = 150;
+  var Ymax2 = 400;
   if(positionX2 > Xmax2){
     sideToSide2 = true;
     ball2.style.background = '#04B486'
@@ -112,9 +112,9 @@ function moveBall3() {
   }
 
   var Xmin3 = 0;
-  var Xmax3 = 500;
+  var Xmax3 = 600;
   var Ymin3 = 0;
-  var Ymax3 = 200;
+  var Ymax3 = 400;
   if(positionX3 > Xmax3){
     sideToSide3 = true;
     ball3.style.background = '#170B3B'
