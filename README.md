@@ -1,4 +1,4 @@
-Jess's Bouncing Balls
+<h1>Jess's Bouncing Balls:</h1>
 
 In this coding adventure, I learned how to make balls move in different directions at different velocities and to bounce the opposite way once a boundary was hit. Upon hitting a wall, the balls also change color.
 
