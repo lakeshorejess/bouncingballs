@@ -68,9 +68,9 @@ function moveBall2() {
   }
   
   var Xmin2 = 0;
-  var Xmax2 = 1200;
+  var Xmax2 = window.innerWidth - parseInt(ball2.style.width);
   var Ymin2 = 0;
-  var Ymax2 = 700;
+  var Ymax2 = window.innerHeight - parseInt(ball2.style.height);
   
   if(positionX2 > Xmax2){
     sideToSide2 = true;
@@ -114,9 +114,9 @@ function moveBall3() {
   }
 
   var Xmin3 = 0;
-  var Xmax3 = 1200;
+  var Xmax3 = window.innerWidth - parseInt(ball3.style.width);
   var Ymin3 = 0;
-  var Ymax3 = 700;
+  var Ymax3 = window.innerHeight - parseInt(ball3.style.height);
   
   if(positionX3 > Xmax3){
     sideToSide3 = true;
@@ -160,9 +160,9 @@ function moveBall4() {
   }
   
   var Xmin4 = 0;
-  var Xmax4 = 1200;
+  var Xmax4 = window.innerWidth - parseInt(ball4.style.width);
   var Ymin4 = 0;
-  var Ymax4 = 700;
+  var Ymax4 = window.innerHeight - parseInt(ball4.style.height);
   
   if(positionX4 > Xmax4){
     sideToSide4 = true;
