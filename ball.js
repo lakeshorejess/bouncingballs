@@ -21,9 +21,9 @@ function moveBall() {
   }
  
   var Xmin = 0;
-  var Xmax = window.innerWidth - ball.width;
+  var Xmax = (window.innerWidth - ball.width) + 'px';
   var Ymin = 0;
-  var Ymax = window.innerHeight - ball.height;
+  var Ymax = (window.innerHeight - ball.height) + 'px';
   
   if(positionX > Xmax){
     sideToSide = true;
