@@ -128,7 +128,7 @@ function moveBall3() {
   }
   if(positionY3 > Ymax3){
     upAndDown3 = true;
-     ball3.style.background = '#A9F5F2'
+     ball3.style.background = 'white'
   }
   if(positionY3 === Ymin3){
     upAndDown3 = false;
