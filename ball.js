@@ -21,9 +21,9 @@ function moveBall() {
   }
  
   var Xmin = 0;
-  var Xmax = (window.innerWidth - ball.style.width) + 'px';
+  var Xmax = (window.availWidth - ball.style.width) + 'px';
   var Ymin = 0;
-  var Ymax = (window.innerHeight - ball.style.height) + 'px';
+  var Ymax = (window.availHeight - ball.style.height) + 'px';
   
   if(positionX > Xmax){
     sideToSide = true;
@@ -68,9 +68,9 @@ function moveBall2() {
   }
   
   var Xmin2 = 0;
-  var Xmax2 = window.innerWidth - ball2.style.width;
+  var Xmax2 = window.availWidth - ball2.style.width;
   var Ymin2 = 0;
-  var Ymax2 = window.innerHeight - ball2.style.height;
+  var Ymax2 = window.availHeight - ball2.style.height;
   
   if(positionX2 > Xmax2){
     sideToSide2 = true;
